@@ -19,8 +19,6 @@ const GetMyFeedBack = () => {
     const contract = new ethers.Contract(contractAddress, contractABI, signer);
 
     const feedbacks = await contract.getFeedBack();
-    //await feedbacks.wait();
-    //const feedbacks = await transaction.wait();
 
     setFeedback(feedbacks);
   };
@@ -48,13 +46,11 @@ const GetMyFeedBack = () => {
           {showFeedback
             ? `Sender: ${feedbackItem.sender}` +
               ";\n" +
-              ` FeedBack: ${feedbackItem.feedback}`
-            : // +
-              //   " (" +
-              //   `Time: ${feedbackItem.timestamp}` +
-              // ")"
-
-              ""}
+              ` FeedBack: ${feedbackItem.feedback}` +
+              " (" +
+              `Time: ${feedbackItem.timestamp}` +
+              ")"
+            : ""}
         </div>
       ))}
 
