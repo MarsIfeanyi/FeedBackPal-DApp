@@ -6,7 +6,7 @@ const Footer = () => {
       className="
     mx-auto text-center  justify-center mt-32 font-normal mb-10 text-blue-600"
     >
-      <p>Marcellus Ifeanyi &copy; Learnable22 </p>
+      <p> Built with ❤️ by Mars &copy; Learnable22 </p>
     </div>
   );
 };
