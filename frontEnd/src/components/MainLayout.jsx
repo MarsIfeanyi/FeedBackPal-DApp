@@ -1,13 +1,14 @@
 import React from "react";
 import Header from "./Header";
-import ConnectWallet from "./ConnectWallet";
+import UserAuth from "./UserAuth";
 
 const MainLayout = () => {
   return (
     <div>
-      <div className="flex flex-col space-y-6 space-x-0 md:flex-row  md:justify-between 10 text-4xl text-blue-600 ml-10 mt-10  ">
+      <div className="flex flex-col space-y-6 space-x-0 md:flex-row  md:justify-between 10  text-blue-600 ml-10  ">
         <Header />
-        <ConnectWallet />
+
+        <UserAuth />
       </div>
     </div>
   );
