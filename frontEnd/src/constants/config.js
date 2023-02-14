@@ -1,4 +1,4 @@
-export const contractAddress = "0xA654C8957465c293AE8a161D1488e22E68C40a88";
+export const contractAddress = "0x32c8dabc5B7DEcCC5d58639F3e3158e7a7B0faD4";
 
 export const contractABI = [
   {
@@ -16,6 +16,11 @@ export const contractABI = [
             internalType: "string",
             name: "feedback",
             type: "string",
+          },
+          {
+            internalType: "uint256",
+            name: "timestamp",
+            type: "uint256",
           },
         ],
         internalType: "struct MyFeedBack.Feedback[]",
@@ -58,6 +63,11 @@ export const contractABI = [
         internalType: "string",
         name: "feedback",
         type: "string",
+      },
+      {
+        internalType: "uint256",
+        name: "timestamp",
+        type: "uint256",
       },
     ],
     stateMutability: "view",
