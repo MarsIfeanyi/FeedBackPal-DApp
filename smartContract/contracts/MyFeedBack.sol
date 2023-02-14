@@ -6,7 +6,7 @@ contract MyFeedBack {
     struct Feedback {
         address sender;
         string feedback;
-        // uint timestamp;
+        uint256 timestamp;
     }
 
     Feedback[] public userFeedback;
@@ -14,8 +14,8 @@ contract MyFeedBack {
     function sendFeedBack(string calldata _userFeedback) external {
         Feedback memory feedback = Feedback({
             sender: msg.sender,
-            feedback: _userFeedback
-            // timestamp: block.timestamp
+            feedback: _userFeedback,
+            timestamp: block.timestamp
         });
         userFeedback.push(feedback);
     }
