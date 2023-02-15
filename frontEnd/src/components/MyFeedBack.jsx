@@ -55,7 +55,7 @@ const MyFeedBack = () => {
             type="submit"
             className="bg-blue-600 rounded-lg p-2 text-white "
           >
-            Submit Feedback
+            Send Feedback
           </button>
         </div>
       </form>
