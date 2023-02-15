@@ -7,8 +7,8 @@ function HomePage() {
         <h3 className="text-blue-600">Anonymous Feedback made Easy</h3>
 
         <Link to="/feedback">
-          <button className="bg-blue-600 rounded-lg p-2 font-normal mt-10 text-white">
-            Give me Feedback
+          <button className="bg-blue-600 rounded-xl text-white  py-2 px-3 text-xl mt-10">
+            Give Feedback
           </button>
         </Link>
       </div>
