@@ -85,6 +85,9 @@ This project is subject to further improvements and addition of new features and
 
 - feature to show the "Timestamp", so that user can know the time and date feedback (comment ) was give to them.
 - feature to allow only the owner of the deployed contract to view the feedbacks. Thus everyone can send or give feedback but only the owner of the contract will be allowed to view the feedback.
+
+- UI features. more features will be added for the UI
+
 - And more
 
 ## Contributing
