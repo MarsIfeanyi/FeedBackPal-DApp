@@ -46,11 +46,14 @@ const GetMyFeedBack = () => {
           {showFeedback
             ? `Sender: ${feedbackItem.sender}` +
               ";\n" +
+              " " +
+              " " +
               ` FeedBack: ${feedbackItem.feedback}` +
-              " (" +
-              `Time: ${feedbackItem.timestamp}` +
-              ")"
-            : ""}
+              ""
+            : // " (" +
+              // `Time: ${feedbackItem.timestamp}` +
+              // ")"
+              ""}
         </div>
       ))}
 
