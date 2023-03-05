@@ -12,6 +12,9 @@ The Dapp is available online at:
 
 - https://feedbackpal-dapp.vercel.app/
 
+# Youtube Explanation
+- https://www.youtube.com/watch?v=rcFe8wy3wEw
+
 ## Usage
 
 - To use this Dapp use the link of the deployed Dapp, [FeedBackPal](https://feedbackpal-dapp.vercel.app/) or clone the repository and cd into the directory such that you are on `frontEnd`
