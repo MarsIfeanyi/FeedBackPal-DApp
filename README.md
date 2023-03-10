@@ -6,13 +6,14 @@ This is a Decentralized Application that enables people to send us feedback on w
 
 This is helpful for people to give us honest feedback without worrying about their reputation, since their identity will be private using blockchain, you will only be able to know their wallet address
 
-# Live Demo Here
+## Live Demo Here
 
 The Dapp is available online at:
 
 - https://feedbackpal-dapp.vercel.app/
 
-# Youtube Explanation
+## Explanation How it Works | Youtube
+
 - https://www.youtube.com/watch?v=rcFe8wy3wEw
 
 ## Usage
